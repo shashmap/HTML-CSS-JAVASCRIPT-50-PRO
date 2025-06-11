@@ -3,15 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dad jokes</title>
+    <title>FinGenius - AI Financial Literacy Platform</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <h1>Dad Jokes😁</h1>
-        <button id="btn" class="btn">Jokes</button>
-        <div id="content"></div>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <span class="logo-icon">💰</span>
+                    <span>FinGenius</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline" id="login-btn">Log In</a>
+                    <a href="#" class="btn btn-primary" id="signup-btn">Sign Up</a>
+                </div>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-outline">Log In</a>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
     </div>
-    <script src="app.js"></script>
+
+    <!-- Landing Page -->
+    <div id="landing-page">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Empower Your Financial Future with AI</h1>
+                    <p>An AI-powered platform that assesses your financial knowledge, analyzes your behavior, predicts your financial future, and offers personalized learning.</p>
+                    <a href="#" class="btn btn-secondary btn-lg" id="cta-btn">Start Your Journey</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Intelligent Features to Transform Your Finances</h2>
+                    <p>FinGenius uses advanced AI to provide personalized financial guidance and predictions.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Personalized Learning Modules</h3>
+                        <p>Tailored financial education based on your knowledge gaps and learning style.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Financial Behavior Analysis</h3>
+                        <p>AI-powered insights into your spending patterns and financial habits.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Savings Prediction</h3>
+                        <p>See how your current habits affect your future savings and wealth.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Goal Achievement Forecast</h3>
+                        <p>Track your progress toward financial goals with AI-powered projections.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI Financial Assistant</h3>
+                        <p>Get answers to your financial questions anytime with our intelligent chatbot.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>FinGenius</h3>
+                    <p>Empowering your financial future with AI-driven insights and personalized learning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Financial Glossary</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Webinars</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 <strong>FinGenius</strong>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
